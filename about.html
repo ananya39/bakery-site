@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <title>Bakery site</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html">SERVICES</a></li>
+            <li><a href="Contact.html">CONTACT US</a></li>
+
+        </ul>
+
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+<h1>About Us</h1>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+<h1>"Baking is not simply an Art but a form of expression and love.</h1>
+<p>Our mission is to bring rustic naturally leavened loaves to your dining table each and everyday. 
+    Baking is a method of preparing food that uses dry heat, typically in an oven, but can also be done in hot ashes, 
+    or on hot stones. The most common baked item is bread but many other types of foods are baked.Heat is gradually transferred "from the surface of 
+    cakes, cookies, and breads to their center.But we add more than than ingredients into our baked goods. Our secret ingredient is love.It increases
+    the taste tenfold.As heat travels through, it transforms batters and doughs into baked goods and more with a firm dry crust and a softer center"</p>
+    <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="b.jpg" >
+
+        </div>
+    </div>
+</section>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
